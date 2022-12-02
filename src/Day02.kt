@@ -53,10 +53,3 @@ fun getValue(face: String): Int {
         else -> 3
     }
 }
-
-
-data class Draw(val value: Int, val face: Face)
-
-enum class Face {
-    A, B, C, X, Y, Z
-}
